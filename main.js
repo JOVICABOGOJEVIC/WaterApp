@@ -139,9 +139,5 @@ function displayTodayCigars() {
         let procentDiv = document.querySelector('.day'+index).querySelector('.procent'); // 0,1,2,3,4,5,6
         procentDiv.style.height = parseInt(day * 2.9) + "%";
         procentDiv.innerHTML = day;
-
-
     });
-
-    
 }
